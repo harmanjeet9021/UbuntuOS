@@ -40,7 +40,7 @@ export default function Meta() {
                 content="Harman Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
             <meta name="og:image" content="images/logos/logo_1200.png" />
             <meta name="og:url" content="https://github.com/harmanjeet9021" />
-            <meta name="og:site_name" content="Vivek Patel Personal Portfolio" />
+            <meta name="og:site_name" content="G Personal Portfolio" />
             <meta name="og:locale" content="en_IN" />
             <meta name="og:type" content="website" />
 

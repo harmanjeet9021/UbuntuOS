@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactGA from 'react-ga4';
 
-export class AboutVivek extends Component {
+export class AboutHarman extends Component {
 
     constructor() {
         super();
@@ -55,11 +55,11 @@ export class AboutVivek extends Component {
         return (
             <>
                 <div id="about" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "about" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="about vivek" src="./themes/Yaru/status/about.svg" />
+                    <img className=" w-3 md:w-4" alt="about Harman" src="./themes/Yaru/status/about.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">About Me</span>
                 </div>
                 <div id="education" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "education" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="vivek' education" src="./themes/Yaru/status/education.svg" />
+                    <img className=" w-3 md:w-4" alt="Harman' education" src="./themes/Yaru/status/education.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Education</span>
                 </div>
                 <div id="skills" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "skills" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
@@ -105,8 +105,8 @@ export class AboutVivek extends Component {
 
 export default AboutVivek;
 
-export const displayAboutVivek = () => {
-    return <AboutVivek />;
+export const displayAboutHarman = () => {
+    return <AboutHarman />;
 }
 
 
@@ -117,7 +117,7 @@ function About() {
                 <img className="w-full" src="./images/logos/bitmoji.png" alt="Harman Logo" />
             </div>
             <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
-                <div>my name is <span className="font-bold">Vivek Patel</span> ,</div>
+                <div>my name is <span className="font-bold">Harman Patel</span> ,</div>
                 <div className="font-normal ml-1">I'm a <span className="text-pink-600 font-bold">Frontend Engineer!</span></div>
             </div>
             <div className=" mt-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
@@ -236,7 +236,7 @@ function Projects() {
         {
             name: "UbuntuOS Portfolio",
             date: "Dec 2024",
-            link: "https://github.com/Harman9patel/vivek9patel.github.io",
+            link: "https://github.com/harmanjeet9021/UbuntuOS",
             description: [
                 "Personal portfolio website of theme Ubuntu 20.04, made using NEXT.js & tailwind CSS",
             ],
@@ -245,7 +245,7 @@ function Projects() {
         {
             name: "Chrome Extension React Bolierplate",
             date: "Dec 2021",
-            link: "https://github.com/vivek9patel/chrome-extension-react-boilerplate",
+            link: "https://github.com/harmanjeet9021/UbuntuOS",
             description: [
                 "A boilerplate code to build a chrome extension with react and webpack",
             ],
@@ -254,7 +254,7 @@ function Projects() {
         {
             name: "CodeConnect",
             date: "Nov 2021",
-            link: "https://github.com/vivek9patel/CodeConnect-frontend",
+            link: "https://github.com/harmanjeet9021/UbuntuOS",
             description: [
                 "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
             ],
@@ -263,7 +263,7 @@ function Projects() {
         {
             name: "Ad Free Spotify",
             date: "Jun 2021",
-            link: "https://github.com/vivek9patel/ad-free-spotify",
+            link: "https://github.com/harmanjeet9021/UbuntuOS",
             description: [
                 "Chrome extension to automatically mute/unmute Spotify tab when Advertisement starts and ends!",
             ],
@@ -272,7 +272,7 @@ function Projects() {
         {
             name: "economist.com Unlocked",
             date: "Mar 2021",
-            link: "https://github.com/vivek9patel/economist.com-unlocked",
+            link: "https://github.com/harmanjeet9021/UbuntuOS",
             description: [
                 "A chrome extension to read Paid Articles for Free & with no Ads, no subscription, no memberships!",
             ],
@@ -281,7 +281,7 @@ function Projects() {
         {
             name: "Flutter banking app",
             date: "Jan 2021",
-            link: "https://github.com/vivek9patel/flutter-banking-app",
+            link: "https://github.com/harmanjeet9021/UbuntuOS",
             description: [
                 "A Flutter & Firebase project for creating transactions between different Users and displaying the history of transactions done by all.",
             ],
@@ -290,7 +290,7 @@ function Projects() {
         {
             name: "CPU scheduling application",
             date: "Dec 2020",
-            link: "https://github.com/vivek9patel/CPU-Scheduling-APP-React-Native",
+            link: "https://github.com/harmanjeet9021/UbuntuOS",
             description: [
                 "React Native Application to visualize the CPU Scheduling algorithms with different Processes and Animations with gannt chart.",
             ],
@@ -299,7 +299,7 @@ function Projects() {
         {
             name: "Meditech Healthcare WebApp",
             date: "Nov 2020",
-            link: "https://github.com/vivek9patel/Meditech-Healthcare",
+            link: "https://github.com/harmanjeet9021/UbuntuOS",
             description: [
                 "Developed Web Application to predict and diagnose diseases from x-ray images.",
             ],
@@ -308,7 +308,7 @@ function Projects() {
         {
             name: "Problem Recommendation System",
             date: "Sep 2020",
-            link: "https://github.com/vivek9patel/Improve-Codeforces",
+            link: "https://github.com/harmanjeet9021/UbuntuOS",
             description: [
                 "Django web application to suggest practice problems from the areas in which the user struggles to get pass in code-forces.",
             ],
@@ -317,7 +317,7 @@ function Projects() {
         {
             name: "Cleanliness Automation",
             date: "Dec 2019",
-            link: "https://github.com/vivek9patel/CPU-Scheduling-APP-React-Native",
+            link: "https://github.com/harmanjeet9021/UbuntuOS",
             description: [
                 "Developed Web Applications to automate Garbage collection and extraction systems for SSIP hackathon",
             ],
@@ -352,7 +352,7 @@ function Projects() {
                     <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
                 </div>
             </div>
-            <iframe src="https://github.com/sponsors/vivek9patel/card" title="Sponsor vivek9patel" className='my-4 w-5/6 md:w-3/4' ></iframe>
+            <iframe src="https://github.com/harmanjeet9021/UbuntuOS" title="Sponsor Harman" className='my-4 w-5/6 md:w-3/4' ></iframe>
 
             {
                 project_list.map((project, index) => {
@@ -364,7 +364,7 @@ function Projects() {
                                 <div className="flex flex-wrap justify-between items-center">
                                     <div className='flex justify-center items-center'>
                                         <div className=" text-base md:text-lg mr-2">{project.name.toLowerCase()}</div>
-                                        <iframe src={`https://ghbtns.com/github-btn.html?user=vivek9patel&repo=${projectName}&type=star&count=true`} frameBorder="0" scrolling="0" width="150" height="20" title={project.name.toLowerCase()+"-star"}></iframe>
+                                        <iframe src={`https://ghbtns.com/github-btn.html?user=harmanjeet9021&repo=${projectName}&type=star&count=true`} frameBorder="0" scrolling="0" width="150" height="20" title={project.name.toLowerCase()+"-star"}></iframe>
                                     </div>
                                     <div className="text-gray-300 font-light text-sm">{project.date}</div>
                                 </div>
@@ -395,6 +395,6 @@ function Projects() {
 }
 function Resume() {
     return (
-        <iframe className="h-full w-full" src="./files/Vivek-Patel-Resume.pdf" title="vivek patel resume" frameBorder="0"></iframe>
+        <iframe className="h-full w-full" src="./files/H-Resume.pdf" title="Harman resume" frameBorder="0"></iframe>
     )
 }

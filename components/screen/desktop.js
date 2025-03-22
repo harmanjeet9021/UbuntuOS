@@ -234,7 +234,7 @@ export class Desktop extends Component {
         if (Object.keys(this.state.closed_windows).length === 0) return;
         let appsJsx = [];
         apps.forEach((app, index) => {
-            if (this.state.desktop_apps.includes(app.id) && app.title !== 'About Vivek') {
+            if (this.state.desktop_apps.includes(app.id) && app.title !== 'About Harman') {
 
                 const props = {
                     name: app.title,
